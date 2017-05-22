@@ -10,6 +10,7 @@ exports.reposByName = function(name){
             id: element.id , name: element.name, url: element.url
         });
     }, this);
+    console.log(info);
     resolve(info);
 });
 });
@@ -24,6 +25,7 @@ exports.reposByStr = function(q){
             id: element.id , name: element.name, owner: element.owner, url: element.url
         });
     }, this);
+                console.log(info);
     resolve(info);
 });
 });
@@ -38,6 +40,7 @@ exports.commitsByRepo = function(repo){
             sha: element.sha, author: element.author, message: element.message, date: element.date
         });
     }, this);
+                console.log(info);
     resolve(info);
 });
 });
