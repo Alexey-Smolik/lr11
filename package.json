@@ -1,19 +1,29 @@
 {
-  "name": "laba11",
+  "name": "@leshutic/laba11",
   "version": "1.0.0",
-  "description": "",
+  "description": "zdarova",
   "main": "modules.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Leshutic",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
     "needle": "^1.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leshutic/lr11.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leshutic/lr11/issues"
+  },
+  "homepage": "https://github.com/Leshutic/lr11#readme",
+  "description": ""
 }
